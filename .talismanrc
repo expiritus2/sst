@@ -4,3 +4,5 @@ threshold: medium
 fileignoreconfig:
   - filename: .env
     checksum: a7cdca269d562960d9bc233407cd31be2916c9acb4c7482460796edb692a6338
+  - filename: package-lock.json
+    checksum: 2c51e17a75e871f6b60e2b37f609bb4b1f5d6d0d13f374a69e9e76129dac9777
