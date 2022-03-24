@@ -1,0 +1,6 @@
+scopeconfig:
+  - scope: node
+threshold: medium
+fileignoreconfig:
+  - filename: .env
+    checksum: a7cdca269d562960d9bc233407cd31be2916c9acb4c7482460796edb692a6338
