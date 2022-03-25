@@ -1,4 +1,4 @@
-import { calculateCost } from "../src/util/cost";
+import { calculateCost } from "../backend/src/util/cost";
 
 test("Lowest tier", () => {
     const storage = 10;

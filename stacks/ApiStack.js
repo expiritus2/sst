@@ -18,12 +18,12 @@ export default class ApiStack extends sst.Stack {
             },
             cors: true,
             routes: {
-                'POST /notes': 'src/create.main',
-                'GET /notes/{id}': 'src/get.main',
-                'GET /notes': 'src/list.main',
-                'PUT /notes/{id}': 'src/update.main',
-                'DELETE /notes/{id}': 'src/delete.main',
-                'POST   /billing': 'src/billing.main',
+                'POST /notes': 'backend/src/create.main',
+                'GET /notes/{id}': 'backend/src/get.main',
+                'GET /notes': 'backend/src/list.main',
+                'PUT /notes/{id}': 'backend/src/update.main',
+                'DELETE /notes/{id}': 'backend/src/delete.main',
+                'POST   /billing': 'backend/src/billing.main',
             }
         });
 
